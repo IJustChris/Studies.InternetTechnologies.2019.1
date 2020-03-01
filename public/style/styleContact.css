@@ -1,0 +1,57 @@
+.content-contact{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.contact-background{
+    width:500px;
+    height:500px;
+    margin: 0 auto;
+    background-color:#FAFAFA;
+    border-radius: 10px;
+    padding-top:10px;
+}
+@media (max-width: 770px) and (min-width:200px) {
+    .contact-background{
+        width:300px;
+    }
+
+
+}
+.input-field{
+    width: 100%;
+    height:50px;
+    padding: 2px;
+
+}
+input{
+    width :200px;
+    height:20px;
+    border-radius: 3px;
+    border-color:#007bff;
+    border-width: 1px;
+     padding-left:5px; 
+    
+}
+
+
+textarea{
+    width :200px;
+    height:100px;
+    border-radius: 10px;
+    border-color:#007bff;
+    padding-left:5px; 
+}
+.textarea-height{
+    height:100px;
+}
+button {
+    margin-top:20px;
+    width:200px;
+    height:30px;
+    background-color: #007bff;
+    color: #ffffff;
+
+}

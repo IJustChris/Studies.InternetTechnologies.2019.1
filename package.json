@@ -1,0 +1,31 @@
+{
+  "name": "techapp",
+  "version": "1.0.0",
+  "description": "Projekt zaliczeniowy - Technologie internetowe",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Krzkub@bitbucket.org/Krzkub/technologie-internetowe-projekt.git"
+  },
+  "author": "Krzysztof Kubiak, Maciej Korcz",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Krzkub/technologie-internetowe-projekt#readme",
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "tslint": "^5.17.0",
+    "typescript": "^3.5.1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "@types/jquery": "^3.3.29",
+    "@types/mongodb": "^3.1.28",
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "mongodb": "^3.2.7",
+    "typescript": "^3.5.2"
+  }
+}

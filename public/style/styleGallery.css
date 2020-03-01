@@ -1,0 +1,36 @@
+.content{
+width: 100%;
+
+}
+
+.content-gallery{
+width: 90%;
+position: relative;
+margin:0 auto;
+
+}
+
+img
+{
+  width: 100%;
+}
+
+@media (max-width: 770px) and (min-width:200px) {
+  h2{font-size: 15px;
+  padding-top: 16px;}
+}
+
+.img-background{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    height:80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    opacity: 0.9;
+    
+  }
+
